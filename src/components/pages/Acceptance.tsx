@@ -64,7 +64,7 @@ const Acceptance = () => {
         <p className="text-md font-bold text-[#aa4d69] font-pix">
           See you on the One Billion Rising dance protest ❤️
         </p>
-        <img src="/assets/happy.jpg" className="h-70 w-70" />
+        <img src="assets/happy.jpg" className="h-70 w-70" />
 
         <p className="text-md font-bold text-[#aa4d69] font-pix">
           🗓️ February 14, 2026

@@ -38,11 +38,11 @@ function App() {
 
             {/* IMAGE */}
             {noClickCount === 0 ? (
-              <img src="/assets/emoji-pink.jpg" />
+              <img src="assets/emoji-pink.jpg" />
             ) : !givenUp ? (
-              <img src="/assets/cry-pink.jpg" className="h-70 w-70" />
+              <img src="assets/cry-pink.jpg" className="h-70 w-70" />
             ) : (
-              <img src="/assets/twice.jpg" className="h-70 w-90" />
+              <img src="assets/twice.jpg" className="h-70 w-90" />
             )}
 
             {/* BUTTONS */}
@@ -53,7 +53,7 @@ function App() {
                   onClick={handleYesClick}
                 >
                   <img
-                    src="/assets/heart-spinning.gif"
+                    src="assets/heart-spinning.gif"
                     className="h-8 w-8 scale-150"
                   />
                   Yes
@@ -65,7 +65,7 @@ function App() {
                   onClick={handleYesClick}
                 >
                   <img
-                    src="/assets/wink-anime.gif"
+                    src="assets/wink-anime.gif"
                     className="h-8 w-8 scale-150"
                   />
                   Yes
@@ -78,7 +78,7 @@ function App() {
                   onClick={handleYesClick}
                 >
                   <img
-                    src="/assets/heart-spinning.gif"
+                    src="assets/heart-spinning.gif"
                     className="h-8 w-8 scale-150"
                   />
                   Yes
@@ -88,7 +88,7 @@ function App() {
                   onClick={handleNoClick}
                 >
                   <img
-                    src="/assets/cry-crying.gif"
+                    src="assets/cry-crying.gif"
                     className="h-8 w-8 scale-150"
                   />
                   No
