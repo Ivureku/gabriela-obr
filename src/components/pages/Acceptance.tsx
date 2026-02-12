@@ -30,7 +30,7 @@ const carouselItems = [
 
 const Acceptance = () => {
   const [api, setApi] = useState<any>(null);
-  const [seenSlides, setSeenSlides] = useState<Set<number>>(new Set());
+  const [, setSeenSlides] = useState<Set<number>>(new Set());
   const [hasSeenAll, setHasSeenAll] = useState(false);
   const [showFinalPage, setShowFinalPage] = useState(false);
 

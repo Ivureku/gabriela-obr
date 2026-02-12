@@ -1,5 +1,4 @@
 import Acceptance from "./components/pages/Acceptance";
-import NoPage from "./components/pages/No";
 import { Button } from "./components/ui/button";
 import { useLogicStore } from "./store/LogicStore";
 
